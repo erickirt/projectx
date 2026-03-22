@@ -416,18 +416,26 @@ stripe trigger payment_intent.succeeded
 stripe listen --forward-to localhost:8081/order/webhook // or using the secure tunnel created by Ngrok
 ```
 
-## Supporting 🍻
-I believe in Unicorns 🦄
-Support [me](http://www.paypal.me/jdnichollsc/2), if you do too.
+## Star History 🌟
 
-Donate **Ethereum**, **ADA**, **BNB**, **SHIBA**, **USDT/USDC**, **DOGE**, etc:
+[![Star History Chart](https://api.star-history.com/svg?repos=proyecto26/projectx&type=Date)](https://star-history.com/#proyecto26/projectx&Date)
 
-> Wallet address: jdnichollsc.eth
+## Sponsors 💜
 
-Please let us know your contributions! 🙏
+This project is free and open source. Sponsors help keep it maintained and growing.
 
-## Happy coding 💯
-Made with ❤️
+[**Become a Sponsor**](https://github.com/sponsors/proyecto26) | [Sponsorship Program](https://proyecto26.com/sponsors/)
+
+## Contribution 🤝
+
+ProjectX grows with the community. Ideas for new optimization domains, better confidence scoring, or additional templates? Please open a PR!
+
+## License ⚖️
+This repository is available under the [MIT License](./LICENSE).
+
+## Happy vibe coding 💯
+
+Made with ❤️ by [Proyecto 26](https://proyecto26.com)
 
 <pre role="img" aria-label="ASCII Made with Temporal">
 ╔╦╗╔═╗╔╦╗╔═╗╔═╗╦═╗╔═╗╦   <img width="150px" src="https://avatars0.githubusercontent.com/u/28855608?s=200&v=4" align="right">
