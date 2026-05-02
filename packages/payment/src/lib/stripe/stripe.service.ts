@@ -151,4 +151,25 @@ export class StripeService {
 
     return paymentIntent;
   }
+
+  async refundPaymentIntent(
+    paymentIntentId: string,
+    amount?: number,
+  ): Promise<Stripe.Refund> {
+    try {
+      const refund = await this.stripe.refunds.create({
+        payment_intent: paymentIntentId,
+        amount,
+      });
+      this.logger.log(
+        `refundPaymentIntent(${paymentIntentId}) - Refund created: ${refund.id}`,
+      );
+      return refund;
+    } catch (error) {
+      this.logger.error(`Error refunding payment intent: ${error}`);
+      throw new InternalServerErrorException("Error refunding payment intent", {
+        cause: error,
+      });
+    }
+  }
 }
